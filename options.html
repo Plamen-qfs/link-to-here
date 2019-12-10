@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Link-2-Here Options</title>
+   </head>
+   <body>
+      HTML TAG to link to
+      <br>
+      <select id="linkElement">
+         <option value="A">A (default)</option>
+         <option value="DIV">'DIV'</option>
+         <option value="SPAN">'SPAN'</option>
+         <option value="A, DIV">'A and DIV'</option>
+         <option value="A, DIV, SPAN">'A, DIV, SPAN'</option>
+      </select>
+      <br>
+      Open the direct link
+      <br>
+      <select id="openLinkList">
+         <option value="Dont open">'Don't open (default)'</option>
+         <option value="In current tab">'In current tab'</option>
+         <option value="In a new tab">'In a new tab'</option>
+      </select>
+      <br>
+      <!-- 64 -->
+      <input type="checkbox" id="chkClipboard" value="clipBoard" checked>Copy URL to Clipboard<br>
+      <br>
+      <div id="status"></div>
+      <button id="save">Save</button>
+      <br>
+      <br>
+      <button id="resetToDefault">Reset to default</button>
+      <script src="options.js"></script>
+   </body>
+</html>

@@ -1,2 +1,2 @@
-# link-to-here
-Get a static link closesest to a point in a page.
+#LinkHere
+Link to the closest possible position within the current webpage
